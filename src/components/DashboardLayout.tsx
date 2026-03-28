@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 const links = [
   { to: "/dashboard", label: "Stock Overview", icon: Package },
   { to: "/analytics", label: "Analytics", icon: BarChart3 },
+  { to: "/shop", label: "Shop", icon: ShoppingBag },
 ];
 
 export default function DashboardLayout() {
