@@ -1,5 +1,5 @@
 import { Outlet, NavLink, useNavigate } from "react-router-dom";
-import { Package, BarChart3, LogOut } from "lucide-react";
+import { Package, BarChart3, ShoppingBag, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
