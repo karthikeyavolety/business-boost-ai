@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import DashboardLayout from "./components/DashboardLayout";
 import StockDashboard from "./pages/StockDashboard";
 import Analytics from "./pages/Analytics";
+import Shop from "./pages/Shop";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
