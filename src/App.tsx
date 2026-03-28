@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import DashboardLayout from "./components/DashboardLayout";
 import StockDashboard from "./pages/StockDashboard";
 import Analytics from "./pages/Analytics";
+import Shop from "./pages/Shop";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route element={<DashboardLayout />}>
             <Route path="/dashboard" element={<StockDashboard />} />
             <Route path="/analytics" element={<Analytics />} />
+            <Route path="/shop" element={<Shop />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
